@@ -1,1 +1,3 @@
-# processing-algebra
+# Algebra
+
+Ejemplos de algebra en Processing.
