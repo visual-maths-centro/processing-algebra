@@ -1,12 +1,3 @@
-
-// Declaramos de arreglo:
-// tipo[] nombreArreglo;
-
-// Inicializarlo
-// tipo[] nombreArreglo = new tipo[30];
-
-// Poniendo los valores iniciales
-// tipo[] nombreArreglo = { v_0, v_1, v_2, ..., v_n-1 };
 float[] values = {
   100, 30, 200, 122, 80, 10, 15, 132
 };
@@ -59,31 +50,13 @@ void drawLinearGraph() {
 }
 
 float getMin (float[] values) {
-
-  float min = values[0];
-  for (int i = 0; i < values.length; i++) {
-    float v = values[i];
-    if (v < min) {
-      min = v;
-    }
-  }
-
-  return min;
+  return 0;
 }
 
 float getMax (float[] values) {
-
-  float max = values[0];
-  for (int i = 0; i < values.length; i++) {
-    float v = values[i];
-    if (v > max) {
-      max = v;
-    }
-  }
-
-  return max;
+  return 0;
 }
 
 float myNorm (float value, float min, float max) {
-  return (value - min) / (max - min);
+  return 0;
 }
