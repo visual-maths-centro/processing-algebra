@@ -22,7 +22,22 @@ void setup () {
 
 void draw () {
   background(255);
-  drawLinearGraph();
+  drawBarGraph();
+}
+
+void drawBarGraph () {
+  float spacingX = width / float(values.length);
+
+  for (int i = 0; i < values.length; i++) {
+    float v = values[i]; // Valor actual
+    float vNorm = myNorm(v, min, max); // Valor actual normalizado
+
+    float x = i * spacingX;
+    float y = height - (height * vNorm);
+    float heightBar = height - y;
+    
+    rect(x, y, spacingX, heightBar);
+  }
 }
 
 void drawLinearGraph() {

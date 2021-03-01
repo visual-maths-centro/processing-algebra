@@ -1,6 +1,6 @@
 /**
  * Algebra. Sistemas de numeros.
- * Matematicas Visuales 2020-1 
+ * Matematicas Visuales 2021-2 
  *
  * Este sketch muestra como convertir de sistema binario a decimal.
  */
